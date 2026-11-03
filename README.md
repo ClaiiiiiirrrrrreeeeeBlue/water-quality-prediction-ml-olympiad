@@ -25,7 +25,8 @@ automatic submission.
 - **Frozen weights**: selected once on out-of-fold predictions and then left alone.
 
 Method details, including the leakage controls and the limitations of the reported
-scores, are in [METHOD.md](METHOD.md).
+scores, are in [METHOD.md](METHOD.md). A longer, figure-heavy narrative — from the
+exploratory analysis through to the ensemble — is in [WRITEUP.md](WRITEUP.md).
 
 ## Pipeline
 
@@ -53,6 +54,8 @@ final_ensemble/members.json           frozen weights and round counts
 final_ensemble/common.py              shared I/O and metric helpers
 submission/                           the exact submitted CSV
 reference/                            OOF predictions and recorded metrics
+figures/                              the 16 figures used by the writeup
+WRITEUP.md                            full solution writeup
 data/                                 put train.csv / test.csv here (not tracked)
 ```
 
