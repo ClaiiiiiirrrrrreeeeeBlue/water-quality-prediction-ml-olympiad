@@ -67,8 +67,8 @@ those counts from validation instead.
 
 ## Reproducing the exact submission
 
-Unpack the release asset `checkpoints.zip` into `./checkpoints` and run
-`final_ensemble/predict.py`. On the machine that produced this repository the replayed file
+Unpack [`checkpoints.zip`](https://github.com/ClaiiiiiirrrrrreeeeeBlue/water-quality-prediction-ml-olympiad/releases/download/v1.0-submission/checkpoints.zip)
+into `./checkpoints` and run `final_ensemble/predict.py`. On the machine that produced this repository the replayed file
 matches `submission/final_submission.csv` to within `5e-9` per row; the difference
 comes from floating-point accumulation order across CPU/GPU and library versions.
 
