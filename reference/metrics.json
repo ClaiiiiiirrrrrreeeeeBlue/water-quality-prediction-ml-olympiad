@@ -1,0 +1,46 @@
+{
+  "competition": "ml-olympiad-waterqualityprediction",
+  "metric": "RMSLE",
+  "submission_sha256": "e4092c9b08d941c3b9d05094f36fd0c2718e91b8c460a7e8e0837b2bfaa0bc05",
+  "rows": 7000,
+  "features": 63,
+  "fitted_models": 30,
+  "member_configurations": 5,
+  "oof_rmsle": 0.05208341547813986,
+  "public_rmsle": 0.0565,
+  "private_rmsle": 0.05479,
+  "kaggle_submission_ref": 57913552,
+  "members": [
+    {
+      "name": "cat_hier_d6_s42_drop20_smooth10",
+      "family": "cat",
+      "weight": 0.302931,
+      "oof_rmsle": 0.052566227
+    },
+    {
+      "name": "cat_hier_d7_s42_drop20_smooth10",
+      "family": "cat",
+      "weight": 0.118872,
+      "oof_rmsle": 0.052579408
+    },
+    {
+      "name": "lgb_hier_31_s42_drop20_smooth10",
+      "family": "lgb",
+      "weight": 0.297366,
+      "oof_rmsle": 0.052510425
+    },
+    {
+      "name": "lgb_more_31_s42_drop20_smooth10",
+      "family": "lgb",
+      "weight": 0.144643,
+      "oof_rmsle": 0.053183246
+    },
+    {
+      "name": "xgb_hier_d5_s2026_drop20_smooth10",
+      "family": "xgb",
+      "weight": 0.136188,
+      "oof_rmsle": 0.052881508
+    }
+  ],
+  "note": "Public and Private are recorded results from a completed Kaggle submission. The competition had already closed, so these are not a blind test. Weights were chosen on this same 5-fold OOF split before submission."
+}

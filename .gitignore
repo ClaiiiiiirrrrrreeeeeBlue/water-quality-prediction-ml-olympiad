@@ -1,0 +1,17 @@
+# competition data
+data/*.csv
+
+# generated artefacts
+outputs/
+checkpoints/
+*.log
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# credentials
+kaggle.json
+.kaggle/
+.env
