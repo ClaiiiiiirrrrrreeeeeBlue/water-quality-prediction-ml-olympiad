@@ -15,3 +15,7 @@ __pycache__/
 kaggle.json
 .kaggle/
 .env
+
+# pipeline artefacts
+runs/
+blend/
